@@ -1,4 +1,3 @@
-# Install-Sripts
 Welcome to my install script repository on GitHub!👋
 ---
 
