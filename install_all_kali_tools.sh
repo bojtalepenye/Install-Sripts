@@ -1,7 +1,7 @@
 clear
 echo "Updating/Upgrading the system"
-sudo apt-get update -y
-sudo apt-get upgrade -y
+sudo apt-get -y update
+sudo apt-get -y upgrade
 clear
 echo "Grabbing tools..."
 apt search kali-tools | cut -d "/" -f 1 | grep -v "Sorting..." | grep -v "Kali's" | grep -v "Full Text Search..." > all_kali_tools.txt
